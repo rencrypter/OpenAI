@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        token = System.getenv("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");
 
 
         new Thread(new Runnable() {
